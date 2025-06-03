@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cyberpunk Samurai</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- style2.css dosyasını doğru şekilde çağırıyoruz -->
+  <link rel="stylesheet" href="style2.css">
+  <meta name="description" content="cyberpunk2077 fanpage">
+  <meta name="keywords" content="cyberpunk2077,game">
+  <meta name="author" content="atlamayanat">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <meta http-equiv="refresh" content="1000230">
+  <link rel="icon" href="foto/cyberpunk.jpg" type="image/x-icon">
+</head>
+
+<body style="background-color:black; background-image:url('samurai.png'); ;">
+  <br>
+  <br>
+
+  <h1 style="color:#1ef50a;">
+    <a href="https://www.youtube.com/watch?v=yikfYZzHcQo" style="color:#1ef50a;">V FAN CLUP</a>
+  </h1>
+  <button onclick="fadeClick()" style="background-color:#1ef50a; color:black; border-radius:700px;">FADE</button>
+  <p id="fade" style="color:#1ef50a;">FADE</p>
+  <script>
+    let clickCount = 0;
+    const messages = ["FADE", "NEVER FADE AWAY", "WAKE THE F*CK UP SAMURAI", "WE HAVE A CITY TO BURN", "WELCOME TO NIGHT CITY"];
+
+    function fadeClick() {
+      clickCount++;
+      const messageIndex = clickCount % messages.length;
+      document.getElementById("fade").innerHTML = messages[messageIndex];
+    }
+  </script>
+  <audio id="audioPlayer" src="ses/nfa.mp3" controls autoplay loop></audio>
+  <br>
+  <br>
+
+  <a href="https://www.youtube.com/watch?v=Zs7G1oB1W0c">
+    <img src="foto/cyberpunk.jpg" width="1000px" height="500px" alt="v" title="v">
+  </a>
+  <br>
+  <br>
+  <button onclick="mute()" style="background-color:red; color:black; border-radius:700px;">MUTE</button>
+  <button onclick="unmute()" style="background-color:green; color:black; border-radius:700px;">UNMUTE</button>
+  <br>
+  <script>
+    function mute() {
+      document.getElementById('audioPlayer').muted = true;
+    }
+
+    function unmute() {
+      document.getElementById('audioPlayer').muted = false;
+    }
+  </script>
+  <h3 style="background-color:black; color:limegreen;">
+    <mark><b><i>CITY OF DREAMS<br><br>AND I AM A BIG DREAMER</i></b></mark>
+  </h3>
+  <br>
+  <br>
+
+  <p style="background-color:black; color:limegreen; font-size:20px;">
+    <i>GOODNIGHT VINCENT<br><br>TODAY IS A GOOD DAY<br><br><br><br>
+      <img src="foto/jhonny.jpg" width="300px" height="300px" alt="jhonyy" title="jhony">
+    </i>
+  </p>
+  <br>
+  <br>
+  <br>
+  <span style="background-color:#FFD300; color:limegreen;">
+    <mark><b><i>JOIN SAMURAI<br></i></b></mark>
+    <br>
+    <br>
+  </span>
+  <form action="">
+    <input type="text" placeholder="NAME" style="background-color:#FFD300; color:black; border-radius:700px;" required>
+    <input type="text" placeholder="GANG" style="background-color:#FFD300; color:black; border-radius:700px;" required>
+    <input type="number" placeholder="KILL COUNT" style="background-color:#FFD300; color:black; border-radius:700px;" required>
+    <br>
+    <label style="color:blue;">
+      <input type="radio" name="Gender" value="male" required> MALE
+    </label>
+    <label style="color:purple;">
+      <input type="radio" name="Gender" value="female" required> FEMALE
+    </label>
+    <label style="color:#FFD300;">
+      <input type="radio" name="Gender" value="IDGF" required> I DON'T GIVE A FUCK
+    </label>
+    <br>
+    <label for="FAVORITE" style="color:limegreen;">FAVORITE</label>
+    <select style="background-color:#FFD300; color:black; border-radius:70px;" name="FAVORITE" id="FAVORITE" required>
+      <option value="" selected disabled>CHOOSE</option>
+      <option value="MISTY">MISTY</option>
+      <option value="RIVER">RIVER</option>
+      <option value="PANAM">PANAM</option>
+      <option value="JUDY">JUDY</option>
+      <option value="JHONNY?">JHONNY?</option>
+    </select>
+    <br>
+    <input type="submit" value="SUBMIT" style="background-color:green; color:white; border-radius:700px;">
+    <input type="reset" value="RESET" style="background-color:red; color:black; border-radius:700px;">
+  </form>
+  <br>
+  <br>
+
+  <video src="video/Fading.mp4" width="500" controls autoplay muted loop></video>
+  <script src="script2 .js"></script>
+  <h2 style="color:limegreen;"><b><i>ADAMDIR</i></b></h2>
+  <ul style="color:green;">
+    <li>PANAM THE ASSLAP</li>
+    <li>RIVER THE COOPFCKER</li>
+    <li>MISTY THE MENZILCI</li>
+    <li>BRANDON THE COKEGUY</li>
+  </ul>
+  <br>
+  <br>
+  <table bgcolor="darkgreen" width="240" border="1">
+    <tr bgcolor="yellow">
+      <th style="color:#1ef50a;" width="80">İSİM</th>
+      <th style="color:#1ef50a;" width="80">GANG</th>
+      <th style="color:#1ef50a;" width="80">RATE</th>
+    </tr>
+    <tr align="center" bgcolor="black">
+      <td style="color:#FFD300">PANAM</td>
+      <td style="color:#FFD300">ALECADOS</td>
+      <td style="color:#FFD300">6/10</td>
+    </tr>
+    <tr align="center" bgcolor="black">
+      <td style="color:#FFD300">RIVER</td>
+      <td style="color:#FFD300">NPCD</td>
+      <td style="color:#FFD300">7/10</td>
+    </tr>
+    <tr align="center" bgcolor="black">
+      <td style="color:#FFD300">MISTY</td>
+      <td style="color:#FFD300">DRUG SELLER</td>
+      <td style="color:#FFD300">9/10</td>
+    </tr>
+  </table>
+  <br>
+  <iframe width="700" height="500" src="https://en.wikipedia.org/wiki/Cyberpunk" title="wiki" frameborder="0"></iframe>
+</body>
+
+</html>
+
+<style>
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background:
+      url('samurai.png') center center no-repeat,
+      radial-gradient(circle at center, rgba(255, 7, 58, 0.10) 0%, transparent 70%);
+    background-size: 420px, 100% 100%;
+    opacity: 0.22;
+    z-index: -2;
+    pointer-events: none;
+    animation: logoGlow 4s ease-in-out infinite alternate;
+  }
+</style>
